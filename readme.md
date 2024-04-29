@@ -31,16 +31,19 @@ you can look for solutions in the answers folder. Try your best at solving the t
 ## Tasks
 
 ### Task 1
+Open the folder Task 1
 Your first task is to create a JavaScript class for a game character with properties and methods. You can test you code
 with the provided index.html file by opening it in the browser.
 
 ### Task 2
+Open the folder Task 2
 You second task is to debug a simple JavaScript script. The function is supposed to change the text, and background color
 of the elements on the page. **The code contains 3 errors in total.**
 Use the browser developer tools to debug the code. To get started, open the index.html file
 in your browser and open the developer tools to check for errors.
 
 ### Task 3
+Open the folder Task 3
 Your third task is to finish the object creation script with more complex structures. Complete the TODOs in the JavaScript file.
 And test them by opening the index.html file in your browser. Test the code between the TODOs with different parameters and
 see what they do to the final object.
