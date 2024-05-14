@@ -22,6 +22,59 @@ project folder in it.
 The task folders contain JavaScript files and index.html files. After completing 
 the tasks in the JavaScript files you can run the code by opening the index.html
 file from your IDE or directly from the file system to your browser.
+### Creating your GitHub repository
+* You will need a github account: if you do not have one yet create one here [GitHub Signup](https://github.com/signup?source=login)
+* You will also need git installed on your console. You can download git here [git download](https://git-scm.com/downloads). Alternatively, you can download [GitBash for Windows](https://gitforwindows.org/) or similar.
+* After you have a GitHub account, create a new empty repository from your profile. You can name it anything, and it can have no files for now.
+You will need to open the files you downloaded from this repository in your command line (CMD for Windows, Terminal on MacOS). You can often open a folder in terminal directly by right clicking on it -> open in terminal
+Or by navigating from console
+```bash
+cd /path_to_your_folder/JavaScript-Essentials-Tasks-main
+```
+You can navigate inside the folder similarly with `cd` (navigate to task_1 folder)
+```bash
+cd task_1
+```
+navigate back a level 
+```bash
+cd ..
+```
+
+You will need to connect the repository you have created to your local files. You can do it in following ways or by looking at this [guide](https://github.com/git-guides/git-init).
+
+Make sure you are at the root of the folder in `/JavaScript-Essentials-Tasks-main`
+Initialize the git repository with
+```bash
+git init
+```
+Add all of the local files to be tracked
+```bash
+git add .
+```
+Add your first commit. These are "Save points" with messages on progression of the files.
+```bash
+git commit -m "Initial commit"
+```
+Add GitHub repository as origin to your local files.
+```bash
+git remote add origin https://github.com/username/repository-name.git
+```
+Push your changes to be updated on the repository
+```bash
+git push -u origin main
+```
+ If you run into authorizing issue, make sure you are authenthicated. You can set up authenthication with this 
+[tutorial](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
+You can now add commits and push changes to your repository with using
+```bash
+git add .
+```
+```bash
+git commit -m "your message"
+```
+```bash
+git push
+```
 ### Troubleshooting
 If you have completed all of the tasks and the code is not working as expected in your browser you can
 use the browser developer tools to debug the code. In Chrome you can open the developer tools by right clicking
@@ -30,20 +83,8 @@ you can look for solutions in the answers folder. Try your best at solving the t
 
 ## Tasks
 
-### Task 1
-Open the folder Task 1
-Your first task is to create a JavaScript class for a game character with properties and methods. You can test you code
-with the provided index.html file by opening it in the browser.
+All of the tasks folders contain TODO comments which help you to complete them. Follow the instructions in the comments and complete the tasks. Commit and push changes made to each tasks when a TODO is complete.
 
-### Task 2
-Open the folder Task 2
-You second task is to debug a simple JavaScript script. The function is supposed to change the text, and background color
-of the elements on the page. **The code contains 3 errors in total.**
-Use the browser developer tools to debug the code. To get started, open the index.html file
-in your browser and open the developer tools to check for errors.
+## Project
 
-### Task 3
-Open the folder Task 3
-Your third task is to finish the object creation script with more complex structures. Complete the TODOs in the JavaScript file.
-And test them by opening the index.html file in your browser. Test the code between the TODOs with different parameters and
-see what they do to the final object.
+The folder contains a `pdf` file which contains instructions on creating a food ordering application project. Commit and push all your tasks to the repository you have made.
